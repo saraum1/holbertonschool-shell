@@ -1,1 +1,2 @@
-# holbertonschool-shell
+holbertonschool-shell
+Shell basics tasks.
