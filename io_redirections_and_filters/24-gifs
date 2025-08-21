@@ -1,0 +1,1 @@
+find . -type f -name "*.gif" | sed 's/\.gif$//' | sed 's/.*\///' | LC_ALL=C sort -f
