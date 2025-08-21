@@ -1,3 +1,2 @@
 #!/bin/bash
-printf "
-" {a..z}{a..z} | grep -v oo
+for c1 in {a..z}; do for c2 in {a..z}; do if [ "$c1$c2" != "oo" ]; then echo "$c1$c2"; fi; done; done
