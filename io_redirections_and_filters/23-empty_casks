@@ -1,1 +1,1 @@
-find . -empty -printf "%f\n"
+find . -empty | while read -r line; do echo "${line##*/}"; done
