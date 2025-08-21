@@ -1,2 +1,1 @@
-holbertonschool-shell
-Shell basics tasks.
+Shell redirections project
